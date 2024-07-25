@@ -20,7 +20,6 @@ menuItems.forEach(item => {
             <h4>${item.name}</h4>
             <p>${item.description}</p>
             <p class="price">${item.price}</p>
-        </div>
-    `;
+        </div> `;
     menuGrid.appendChild(menuOption);
 });
